@@ -1,6 +1,6 @@
 op = ['-1','*2']
 x = 3
-y = 13
+y = 11
 arr = ['3']
 re = []
 f = False
@@ -33,7 +33,7 @@ def count_op(arr):
             count +=1
     return count
 
-
+# check liệu 2 số nhập vào có thể tính đc như v ko
 if len(re) == 0:
     print('No result')
 else:
@@ -42,5 +42,6 @@ else:
         print(i)
         if lowest < count_op(i):
             lowest = re 
-
     print(lowest)
+
+# kết quả tương đối
